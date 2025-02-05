@@ -9,9 +9,9 @@ const firebaseConfig = {
     messagingSenderId: "332143165712",
     appId: "1:332143165712:web:492cf0cfdd2dbec7046595",
     measurementId: "G-ZVG4KRVZMB"
-};
+    };
 
-// Firebaseアプリの初期化
+// Firebase アプリの初期化
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
