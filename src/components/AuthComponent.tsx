@@ -18,6 +18,7 @@ export default function AuthComponent() {
         await createUserWithEmailAndPassword(auth, email, password);
         alert("ユーザー登録成功");
         }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
         alert(error.message);
     }
